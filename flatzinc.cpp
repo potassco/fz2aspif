@@ -249,11 +249,11 @@ namespace FlatZinc {
     switch (_method) {
     case MIN:
     case MAX:
-      std::cerr << "start optimization search\n";
+      //std::cerr << "start optimization search\n";
       // TODO: perform actual search
       break;
     case SAT:
-      std::cerr << "start satisfiability search\n";      
+      //std::cerr << "start satisfiability search\n";      
       // TODO: perform actual search
       break;
     }

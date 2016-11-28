@@ -1,7 +1,7 @@
 This Parser has been adapted to produce aspif fileformat,
 usable for clingcon-3x series. Feel free to use it as you like.
-To produce flatzinc files from minizinc files, use the supllied clingcon translation
-in folder ...
+To produce flatzinc files from minizinc files, use the supplied clingcon translation
+in folder share/clingcon.
 mzn2fzn -O- --output-to-stdout -G clingcon freepizza.mzn._pizza6.dzn.mzn 
 This call removes all non-standard non-linear constraints except alldistinct.
 
